@@ -1,11 +1,10 @@
-/** @jsx jsx */
-import { Combined } from '../../../shared/styles'
+import { Basic } from "./index.styles"
 
 export const Button = (): JSX.Element => (
 
-  <Combined>
+  <Basic>
     With <code lang="javascript">esto es código</code>.
-  </Combined>
+  </Basic>
 
 )
 

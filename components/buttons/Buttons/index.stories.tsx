@@ -2,15 +2,14 @@ import React from 'react'
 import { boolean, select } from '@storybook/addon-knobs'
 import { action } from '@storybook/addon-actions'
 
-import IconButton from './index'
-import { Animated } from '../../../shared/styles'
+import Button from './index'
 
 export default {
-  title: 'ui/Animated ',
-  component: Animated,
+  title: 'ui/Button ',
+  component: Button,
 }
 
 
 export const Normal = () => (
-  <Animated />
+  <Button />
 )
