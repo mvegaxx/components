@@ -8,11 +8,12 @@ export const globalStyles = (
       body {
         padding: 3rem 1rem;
         margin: 0;
-        background: papayawhip;
+        background: red;
         min-height: 100%;
-        font-family: Helvetica, Arial, sans-serif;
-        font-size: 24px;
+        font-family: "Nunito", sans-serif;
+        font-size: 16px;
       }
+    
     `}
   />
 )

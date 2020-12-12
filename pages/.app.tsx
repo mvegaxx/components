@@ -1,5 +1,4 @@
- 
-import { globalStyles } from '../shared/styles'
+ import { globalStyles } from '../shared/styles'
 
 const App = ({ Component, pageProps }) => (
   <>
