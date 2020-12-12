@@ -1,4 +1,7 @@
 import Head from 'next/head'
+import React from 'react'
+import { Animated, Basic, Combined, bounce } from '../shared/styles'
+import {animation} from '../shared/animation'
 
 export const Home = (): JSX.Element => (
   <div className="container">
