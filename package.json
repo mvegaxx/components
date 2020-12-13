@@ -30,7 +30,6 @@
   "dependencies": {
     "@emotion/react": "11.1.1",
     "@emotion/styled": "11.0.0",
-    "@storybook/preset-typescript": "^3.0.0",
     "next": "latest",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -60,6 +59,7 @@
     "jest-watch-typeahead": "^0.5.0",
     "lint-staged": "^10.0.10",
     "prettier": "^2.0.2",
+    "storybook-addon-emotion-theme": "^2.1.1",
     "typescript": "^3.8.3"
   }
 }

@@ -9,5 +9,8 @@ export default {
 
 
 export const Normal = () => (
+  <>
   <ProfileCard />
-)
+  <ProfileCard />
+  </>
+  )

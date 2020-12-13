@@ -1,3 +1,7 @@
+// .storybook/preview.js
+
+import React from 'react';
+import { Global, css } from "@emotion/core"
 
 export const parameters = {
   options: {
@@ -15,3 +19,21 @@ export const parameters = {
     },
   },
 }
+
+
+export const decorators = [(Story) => {
+  return (
+
+    <div >
+      <Global
+        styles={css`
+    html,
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing:border-box;
+      font-family: "Nunito", sans-serif;
+    }
+ `} /><Story /></div >)
+}
+];

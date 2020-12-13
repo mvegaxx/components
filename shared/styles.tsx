@@ -1,7 +1,7 @@
 import { css, Global, keyframes } from '@emotion/react'
 import styled from '@emotion/styled'
 
-export const globalStyles = (
+export const GlobalStyles = (
   <Global
     styles={css`
       html,
@@ -13,6 +13,7 @@ export const globalStyles = (
         font-family: "Nunito", sans-serif;
         font-size: 16px;
       }
+
     
     `}
   />
